@@ -99,9 +99,11 @@ export const Footer: React.FC = () => {
             &copy; {new Date().getFullYear()} Web3 Chess. All rights reserved.
           </p>
           <div className="flex items-center space-x-6 mt-4 sm:mt-0">
-            <button onClick={() => console.log('Navigate to twitter')} className="text-blue-200/70 hover:text-blue-400 transition-colors">
+            <a href="https://twitter.com">
+            <button className="text-blue-200/70 hover:text-blue-400 transition-colors">
               𝕏
             </button>
+            </a>
             <button onClick={() => console.log('Navigate to discord')} className="text-blue-200/70 hover:text-blue-400 transition-colors">
               Discord
             </button>
