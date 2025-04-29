@@ -104,12 +104,11 @@ export const Footer: React.FC = () => {
               𝕏
             </button>
             </a>
-            <button onClick={() => console.log('Navigate to discord')} className="text-blue-200/70 hover:text-blue-400 transition-colors">
-              Discord
-            </button>
+            <a href="https://t.me/Web3Chess_fun" targer="_blank">
             <button onClick={() => console.log('Navigate to telegram')} className="text-blue-200/70 hover:text-blue-400 transition-colors">
               Telegram
             </button>
+            </a>
           </div>
         </div>
       </div>
