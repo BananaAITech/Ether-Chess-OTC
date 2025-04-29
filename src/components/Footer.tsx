@@ -99,12 +99,12 @@ export const Footer: React.FC = () => {
             &copy; {new Date().getFullYear()} Web3 Chess. All rights reserved.
           </p>
           <div className="flex items-center space-x-6 mt-4 sm:mt-0">
-            <a href="https://x.com/web3chess_fun" targer="_blank">
+            <a href="https://x.com/web3chess_fun" target="_blank">
             <button className="text-blue-200/70 hover:text-blue-400 transition-colors">
               𝕏
             </button>
             </a>
-            <a href="https://t.me/Web3Chess_fun" targer="_blank">
+            <a href="https://t.me/Web3Chess_fun" target="_blank">
             <button onClick={() => console.log('Navigate to telegram')} className="text-blue-200/70 hover:text-blue-400 transition-colors">
               Telegram
             </button>
